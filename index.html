@@ -339,11 +339,11 @@
                   </div>
                   <div class="s-12 m-12 l-5">
                     <h3>Contactenos</h3>
-                    <form class="customform" action="">
-                      <div class="s-12"><input name="" placeholder="Correo Electronico" title="Your e-mail" type="text" /></div>
-                      <div class="s-12"><input name="" placeholder="Su Nombre" title="Your Name" type="text" /></div>
-					            <div class="s-12"><input name="" placeholder="Empresa" title="empresa" type="text" /></div>
-                      <div class="s-12"><textarea placeholder="Mensaje" name="" rows="5"></textarea></div>
+                    <form class="customform" action="sendmail.php" method="post" name="contacto" id ="contacto" >
+                      <div class="s-12"><input name="Email" placeholder="Correo Electronico" title="Email" type="text" onBlur="MM_validateForm('email','','NisEmail');return document.MM_returnValue" /></div>
+                      <div class="s-12"><input name="Nombre" placeholder="Nombre Completo" title="Nombre" id="nombre completo"size="30" maxlength="100" /></div>
+					            <div class="s-12"><input name="Empresa" placeholder="Nombre de Empresa" title="Empresa" type="text" id="nombre empresa"size="30" maxlength="100" /></div>
+                      <div class="s-12"><textarea placeholder="Mensaje" name="Mensaje" cols="50" rows="5" ></textarea></div>
                       <div class="s-12 m-12 l-4"><button class="color-btn" type="submit">Enviar</button></div>
                     </form>
                   </div>
