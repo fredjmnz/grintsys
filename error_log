@@ -1,0 +1,2 @@
+[25-Apr-2017 15:39:42 America/Chicago] PHP Parse error:  syntax error, unexpected '"\r\n"' (T_CONSTANT_ENCAPSED_STRING) in /home2/insulamundi/public_html/grintsys.com/sendmail.php on line 8
+[25-Apr-2017 15:51:01 America/Chicago] PHP Parse error:  syntax error, unexpected '"\r\n"' (T_CONSTANT_ENCAPSED_STRING) in /home2/insulamundi/public_html/grintsys.com/sendmail.php on line 8
